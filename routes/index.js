@@ -5,6 +5,7 @@ const checkUserAPIRoutes = require("./api/checkuser.js");
 // const { addUserAPIRoutes, checkUserAPIRoutes, ifExistsAPIRoutes }  = require ("./api");
 
 // API Routes
+
 router.use("/api/adduser", addUserAPIRoutes);
 
 router.use("/api/checkuser", checkUserAPIRoutes);
